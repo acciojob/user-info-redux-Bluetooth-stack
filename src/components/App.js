@@ -16,7 +16,7 @@ const App = () => {
         <input type="text" onChange={(e) => { dispatch(nameValue(e.target.value)) }}></input>
         <br></br>
         <label>Email:</label>
-        <input type="text" onChange={(e) => { dispatch(mailValue(e.target.value)) }}></input>
+        <input type="email" onChange={(e) => { dispatch(mailValue(e.target.value)) }}></input>
       </div>
       <div>
         <p>Current values in store:</p>
